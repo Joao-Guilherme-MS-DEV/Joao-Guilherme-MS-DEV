@@ -13,8 +13,6 @@
  
 <br>
  
-### Pra conteúdo sobre programação me segue a gente nas redes abaixo!
- 
 <div>
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+ 
 </div>
