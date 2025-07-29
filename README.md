@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao perfil do Dev em Dobro 😁
+## Bem-vindo(a) ao perfil do João Gulherme 😁
 
  <div>
    <a href="https://github.com/Joao-Guilherme-MS-DEV">
