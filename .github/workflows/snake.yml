@@ -22,7 +22,7 @@ jobs:
         with:
           github_user_name: Joao-Guilherme-MS-DEV
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#7B2CBF&color_dots=#EB5E28,#F5CB5C,#38B000,#0072E0,#001242
+            dist/github-contribution-grid-snake.svg?color_snake=#00FF66&color_dots=#161B22,#0E4429,#006D32,#26A641,#39D353
             dist/github-contribution-grid-snake-dark.svg?color_snake=#7B2CBF&color_dots=#EB5E28,#F5CB5C,#38B000,#0072E0,#001242
             
       - name: push github-contribution-grid-snake.svg to the output branch
