@@ -8,6 +8,4 @@
  
 <br>
  
-<div>
- ![Snake animation](https://raw.githubusercontent.com/Joao-Guilherme-MS-DEV/Joao-Guilherme-MS-DEV/output/github-contribution-grid-snake.svg)
-</div>
+![Snake animation](https://raw.githubusercontent.com/Joao-Guilherme-MS-DEV/Joao-Guilherme-MS-DEV/output/github-contribution-grid-snake.svg)
