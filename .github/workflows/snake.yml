@@ -2,7 +2,6 @@ name: Generate Snake
 
 on:
   schedule:
-    # Executa a cada 24 horas
     - cron: "0 0 * * *" 
   workflow_dispatch:
   push:
@@ -17,18 +16,15 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        
       - name: generate-github-user-contribution-grid-snake-animation
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: Joao-Guilherme-MS-DEV
+          github_user_name: 
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#00FF66&color_dots=#161B22,#0E4429,#006D32,#26A641,#39D353
             
       - name: push github-contribution-grid-snake.svg to the output branch
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
